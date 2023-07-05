@@ -9,6 +9,10 @@ public class Inventory {
     private Boolean hasBook = false;
     private Boolean hasDagger = false;
     private Boolean hasDrink = false;
+    private Boolean hasBling = false;
+    private Boolean hasLightArmour = false;
+    private Boolean hasMediumArmour = false;
+    private Boolean hasHeavyArmour = false;
 
 
     //Getters
@@ -34,6 +38,10 @@ public class Inventory {
         return hasDagger;
     }
     public Boolean getHasDrink(){ return hasDrink;}
+    public Boolean getHasBling(){ return hasBling;}
+    public Boolean getHasLightArmour(){ return hasLightArmour;}
+    public Boolean getHasMediumArmour(){ return hasMediumArmour;}
+    public Boolean getHasHeavyArmour(){ return hasHeavyArmour;}
 
     //Setters
     public void setHasSword(Boolean setSword){
@@ -58,4 +66,8 @@ public class Inventory {
         this.hasDagger = setDagger;
     }
     public void setHasDrink(Boolean setDrink){this.hasDrink = setDrink;}
+    public void setHasBling(Boolean setBling){this.hasBling = setBling;}
+    public void setHasLightArmour(Boolean setHasLightArmour){this.hasLightArmour = setHasLightArmour;}
+    public void setHasMediumArmour(Boolean setHasMediumArmour){this.hasMediumArmour = setHasMediumArmour;}
+    public void setHasHeavyArmour(Boolean setHasHeavyArmour){this.hasHeavyArmour = setHasHeavyArmour;}
 }
